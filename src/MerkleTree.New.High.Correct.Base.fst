@@ -457,6 +457,7 @@ let mt_hashes_next_rel_lift_even #hsz #_ j hs nhs =
   hash_seq_lift_index #hsz hs;
   hash_seq_lift_index #hsz nhs
 
+#restart-solver
 val mt_hashes_next_rel_lift_odd:
   #hsz:pos -> #f:MTS.hash_fun_t #hsz ->
   j:nat{j > 1} ->
